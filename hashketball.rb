@@ -170,7 +170,6 @@ def player_numbers(team_name)
 end
 
 def player_stats(player_name)
-  # takes player's name and returns a hash of that player's stats.
   all_players_list.find do |p| p[:player_name] == player_name end
 end
 
