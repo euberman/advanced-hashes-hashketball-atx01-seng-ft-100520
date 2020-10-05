@@ -133,7 +133,7 @@ end
 
 def num_points_scored(player_name)
   player = all_players_list.find do |p| p[:player_name] == player_name end
-  getplayer[:points]
+  player[:points]
 end
 
 def shoe_size(player_name)
